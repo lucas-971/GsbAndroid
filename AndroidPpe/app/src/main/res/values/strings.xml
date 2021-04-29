@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Gsb</string>
+    <string name="date">Selectionnez une date</string>
+    <string name="spinnerPR">Liste praticiens</string>
+    <string name="spinnerMo">Motif</string>
+    <string name="spinnerCO">Coefficient praticiens</string>
+    <string-array name="date">
+        <item>01/2020</item>
+        <item>02/2020</item>
+        <item>03/2020</item>
+        <item>04/2020</item>
+        <item>05/2020</item>
+        <item>06/2020</item>
+        <item>07/2020</item>
+        <item>08/2020</item>
+        <item>09/2020</item>
+        <item>10/2020</item>
+        <item>11/2020</item>
+        <item>12/2020</item>
+    </string-array>
+
+    <string-array name="spinnerPR">
+        <item>Jean</item>
+        <item>a</item>
+        <item>b</item>
+    </string-array>
+
+    <string-array name="spinnerMo">
+        <item>Malade</item>
+        <item>a</item>
+        <item>b</item>
+    </string-array>
+
+    <string-array name="spinnerCO">
+        <item>0.5</item>
+        <item>a</item>
+        <item>b</item>
+    </string-array>
+
+</resources>

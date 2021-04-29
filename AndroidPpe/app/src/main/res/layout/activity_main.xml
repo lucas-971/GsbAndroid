@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lebon"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo_wbgk"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.13" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="236dp"
+        android:layout_height="66dp"
+        android:ems="10"
+        android:background="@drawable/textbox_back"
+        android:drawableLeft="@drawable/ic_person_outline_white_24dp"
+        android:hint="identifiant"
+        android:padding="5dp"
+        android:textColorHint="@color/colorHint"
+        android:textColor="@color/colorInput"
+        android:inputType="textPersonName"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="241dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:background="@drawable/textbox_back"
+        android:drawableLeft="@drawable/ic_lock_outline_white_24dp"
+        android:padding="5dp"
+        android:hint="mot de passe"
+        android:inputType="textPassword"
+        android:textColorHint="@color/colorHint"
+        android:textColor="@color/colorInput"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.625" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="163dp"
+        android:layout_height="45dp"
+        android:onClick="versConnection"
+        android:text="Se Connecter"
+        android:textSize="22sp"
+        android:textColor="@color/colorInput"
+        android:background="@drawable/loginbutton_back"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.935"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.787" />
+
+    <Button
+        android:id="@+id/inscription"
+        android:layout_width="163dp"
+        android:layout_height="45dp"
+
+        android:text="S'inscrire"
+        android:onClick="inscription"
+        android:textSize="22sp"
+        android:textColor="@color/colorInput"
+        android:background="@drawable/loginbutton_back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.787" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
